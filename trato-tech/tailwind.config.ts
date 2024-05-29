@@ -16,6 +16,13 @@ const config: Config = {
       fontFamily: {
         sans: ['Montserrat', 'sans-serif'],
       },
+      screens: {
+        'sm': '600px',   // Pequeno: 480px
+        'md': '768px',   // Médio: 768px
+        'lg': '1024px',  // Grande: 1024px
+        'xl': '1280px',  // Extra grande: 1280px
+        '2xl': '1536px', // 2x extra grande: 1536px
+      },
     },
   },
   plugins: [],
